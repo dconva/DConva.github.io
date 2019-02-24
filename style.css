@@ -1,11 +1,11 @@
 /* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com/
-:: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
-:: Tags: Colorlib, App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
+:: Template Name: Dconva
+:: Template Author: Dconva
+:: Template Author URI: https://dconva.com/
+:: Description: Dconva Technologies creates websites and helps you with online marketing. 
+:: Tags: Web design, web development, online marketing
 :: Version: v1.0
-:: Created: 11/03/2017
+:: Created: 11/11/2018
 -------------------------- */
 
 /* --- [Master Stylesheet] ----
@@ -55,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'SolaimanLipi', 'Cabin', sans-serif;
     font-weight: 400;
     color: #000;
     line-height: 1.2;
@@ -456,9 +456,17 @@ p {
     width: 100%;
 }
 
-.wellcome-heading > h2 {
+.wellcome-heading-red > h2 {
     font-size: 100px;
-    color: #ffffff;
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    z-index: 3;
+}
+.wellcome-heading > h4 {
+    font-size: 60px;
+    opacity: 0.6;
+    color: #fff;
     font-weight: 700;
     position: relative;
     z-index: 3;
