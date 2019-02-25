@@ -35,6 +35,15 @@
 @import 'css/themify-icons.css';
 @import 'css/ionicons.min.css';
 
+@font-face {
+  font-family: DosisSemiBold;
+  src: url(fonts/Dosis-SemiBold.ttf);
+}
+@font-face {
+  font-family: DosisBold;
+  src: url(fonts/Dosis-Bold.ttf);
+}
+
 /* --------------------------
 :: 1.0 Base CSS Start
 -------------------------- */
@@ -45,7 +54,7 @@
 }
 
 body {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'DosisSemiBold', sans-serif;
     background-color: #fff;
 }
 
@@ -227,8 +236,20 @@ p {
     margin-top: 0;
 }
 
+.dcsubhead {
+	font-size: 48px;
+}
+
 .heading-text > p {
     font-size: 16px;
+}
+
+.titlefnt {    
+    font-family: 'DosisBold', sans-serif;
+}
+
+.titlefntsemi {    
+    font-family: 'DosisSemiBold', sans-serif;
 }
 
 .section-heading > h2 {
@@ -446,8 +467,8 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: -130px;
-    right: 85px;
+    bottom: -150px;
+    right: 385px;
     z-index: 9;
 }
 
@@ -457,7 +478,7 @@ p {
 }
 
 .wellcome-heading > h2 {
-    font-size: 100px;
+    font-size: 140px;
     color: #ffffff;
     font-weight: 700;
     position: relative;
