@@ -352,6 +352,15 @@ p {
     top: 0;
     padding: 0 4%;
 }
+.header_areanf {
+    left: 0;
+    position: relative;
+    width: 100%;
+    top: 0;
+    margin-bottom: 60px;
+    padding: 0 4%;
+    background: #884bdf;
+}
 
 .menu_area .navbar-brand {
     font-size: 72px;
